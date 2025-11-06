@@ -1,0 +1,368 @@
+        body{
+            padding: 0;
+            margin: 0;
+            width: auto;
+            height: auto;
+            background-color: #F4EFEA;
+        }
+
+    @font-face {
+        font-family: titulo;
+        src: url(fonts/Poppins-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: p1;
+        src: url(fonts/Lato-Light.ttf);
+    }
+    @font-face {
+        font-family: form;
+        src: url(../fonts/Regular.ttf);
+    }
+
+
+    .pagina_inicial{
+        display: flex;
+        width: auto;
+        height: auto;
+        background-color: #F4EFEA;
+        position: relative;
+        z-index: 1;
+        margin-top: 140px;
+    }
+
+    .bloco1{
+        width: 100%;
+        height: 77px;
+        background-image: url(imagens/cabeçalho.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0; 
+        left: 0;
+        z-index: 0;
+        display: flex;
+        justify-content: end; /*eixo x*/
+        align-items: center; /*eixo y*/
+        gap: 20px;
+        font-size: 12px;
+        margin: 0;
+        
+    }
+    
+    .prestador{
+        position: fixed;
+        top: -31px;
+        left: 105px;
+        z-index: 1;
+    }
+
+    .cadastre-se{
+        position: fixed;
+        top: 10px;
+        left: -100px;
+    }
+
+    .cadastroUser{
+        margin-bottom: 10px;
+        margin: 113px;
+    }
+    
+    p{
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+
+
+    p#cpf{
+        position: relative;
+        top: 0px;
+        padding-inline: 10px;
+        margin-bottom: 25px;
+    }
+
+    p#nasc{
+        padding-inline: 50px;
+        display: inline;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    p#cep{
+        margin-top: 25px;
+        padding-inline: -8px;
+    }
+
+    p#contato{
+        padding-inline: 15px;
+    }
+   
+
+    p.b1{
+        padding-inline: 15px;
+        position: fixed;
+        top: 239px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+
+    p.b2{
+        padding-inline: 35px;
+        position: fixed;
+        top: 292px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+    p.b3{
+        padding-inline: 35px;
+        position: fixed;
+        top: 345px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+     p.b4{
+        padding-inline: 7px;
+        position: fixed;
+        top: 398px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+      p.b5{
+        padding-inline: 15px;
+        position: fixed;
+        top: 451px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+
+    
+    .a1{
+        position: fixed;
+        width: 220px; 
+        top: 255px;
+        left: 220px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+
+    }
+    .a2{
+        position: fixed;
+        width: 220px; 
+        top: 308px;
+        left: 220px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+        
+    }
+    .a3{
+        position: fixed;
+        width: 200px; 
+        top: 359px;
+        left: 239px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+     .nascimento{
+        position: fixed;
+        width: 100%; 
+        top: 416px;
+        left: 330px;
+    }
+    .a4{
+        position: fixed;
+        width: 220px; 
+        top: 463px;
+        left: 218px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+    .a5{
+        position: fixed;
+        width: 190px; 
+        top: 516px;
+        left: 246px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+    .a6{
+        position: fixed;
+        width: 190px; 
+        top: 255px;
+        left: 663px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+    .a7{
+        position: fixed;
+        width: 149px; 
+        top: 310px;
+        left: 703px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+    .a8{
+        position: fixed;
+        width: auto; 
+        top: 417px;
+        left: 646px;
+    }
+    .a9{
+        position: fixed;
+        width: auto; 
+        top: 364px;
+        left: 706px;
+    }
+    .a10{
+        position: fixed;
+        width: 149px; 
+        top: 467px;
+        left: 650px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+
+   
+    .logo{
+        width:  200px;
+        height: auto;
+        position: fixed;
+        top: 11px;
+        right: 100px;
+    }
+
+    .button{
+        position: fixed;
+        top: 520px;
+        left: 655px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .escada{
+        position: fixed;
+        top: 105px;
+        right: 280px;
+    }
+    
+
+
+
