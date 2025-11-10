@@ -88,7 +88,7 @@
         text-align: center;
         z-index: 1;
         font-size: 70px;    
-        position: absolute;   
+        position: fixed;   
         top: 338px; 
         left: 446px;
         color: #1A1A1A;
@@ -102,13 +102,13 @@
         top: 285px;
         
     }
-    .p2{    
+    .p2{
         width: auto;
         font-family: 'p1', sans-serif;
         text-align: center;
         z-index: 1;
         font-size: 70px;    
-        position: absolute;   
+        position: fixed;   
         top: 338px; 
         left: 935px;
         color: #1A1A1A;

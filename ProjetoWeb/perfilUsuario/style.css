@@ -1,0 +1,252 @@
+        body{
+            margin: 0;
+            width: auto;
+            height: auto;
+            background-color: #F4EFEA;
+        }
+
+    @font-face {
+        font-family: entrar;
+        src: url(../fonts/Britannic\ Bold\ Regular.ttf);
+    }
+    @font-face {
+        font-family: titulo;
+        src: url(../fonts/Poppins-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: p1;
+        src: url(../fonts/Lato-Regular.ttf);
+    }
+    @font-face {
+        font-family: imake;
+        src: url(../fonts/SourceSerif4_18pt-Black.ttf);
+    }
+
+    @font-face {
+        font-family: form;
+        src: url(../fonts/Regular.ttf);
+    }   
+
+    .pagina_inicial{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        background-color: #F4EFEA;
+        position: relative;
+        z-index: 1;
+        margin-top: 120px;
+        
+    }
+
+    .bloco1{
+        width: 100%;
+        height: 77px;
+        background-image: url(../imagens/cabeçalho.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0; 
+        left: 0;
+        z-index: 0;
+        display: flex;
+        justify-content: center; /*eixo x*/
+        align-items: center; /*eixo y*/
+        gap: 20px;
+        font-size: 12px;
+        margin: 0;
+        
+    }
+
+    .img{
+        z-index: 1;
+        position: absolute;
+        top: -25px;
+        left: 550px;
+        justify-content: center;
+    }
+    .logo{
+        z-index: 1;
+        width:  200px;
+        height: auto;
+        position: fixed;
+        top: 11px;
+        right: 102px;
+    }
+    .bloco2{
+        background-image: url(../imagens/6556647.jpg);
+        position: absolute;
+        display: block;
+        border-radius: 8px;
+        box-shadow: 3px 3px 10px black;
+        top: 40px;
+        width: 949px;
+        height: 412px;
+        background-size: cover;
+    }
+
+    .fotoPerfil{
+        position: fixed;
+        top: 230px;
+        right: 350px;
+        box-shadow: 3px 3px 10px black;
+
+    }
+
+   
+    p{
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #D2B9A0;
+        color: black;
+        font-family: 'form', sans-serif;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        margin-left: 50px;
+    }
+
+     p.nome{
+        margin-top: 0px;
+        position: relative;
+        top: 25px;
+    }
+
+    p.email{
+        margin-top: 20px;
+        position: relative;
+        top: 56px;
+    }
+
+    p.cpf{
+        margin-top: 20px;
+        position: relative;
+        top: 85px;
+    }
+
+    p.datadenasc{
+        display: inline;
+        padding: 10px;
+        padding-inline: 25px;
+        position: relative;
+        top: 93px;
+    }
+
+    p.cep{
+        margin-top: 20px;
+        position: relative;
+        top: 93px;
+    }
+
+    p.contato{
+        position: relative;
+        top: 93px;
+    }
+
+   .field1{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 320px; 
+        height: 13px;
+        top: 72px;
+        left: 50px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+    .field2{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 320px; 
+        height: 13px;
+        top: 158px;
+        left: 50px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+    .field3{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 240px; 
+        height: 13px;
+        top: 201px;
+        left: 130px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+    .field4{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 115px; 
+        height: 13px;
+        top: 251px;
+        left: 255px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+    .field5{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 240px; 
+        height: 13px;
+        top: 299px;
+        left: 130px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+    .field6{
+        background-color: white;
+        display: block;
+        position: absolute;
+        width: 240px; 
+        height: 13px;
+        top: 351px;
+        left: 130px;
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 14px;      
+        transition: border-color 0.3s;
+        z-index: 1;
+    }
+
+   
+   
+
+
+

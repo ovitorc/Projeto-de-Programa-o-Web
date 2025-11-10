@@ -14,10 +14,10 @@
         font-family: p1;
         src: url(fonts/Lato-Light.ttf);
     }
-    @font-face {
-        font-family: form;
-        src: url(../fonts/Regular.ttf);
-    }
+        @font-face {
+            font-family: form;
+            src: url(../fonts/Regular.ttf);
+        }
 
 
     .pagina_inicial{
@@ -48,6 +48,13 @@
         margin: 113px;
     }
     
+    .logo{
+        width:  200px;
+        height: auto;
+        position: fixed;
+        top: 11px;
+        right: 100px;
+    }
     p{
         border: 1px solid #2C2C2C;
         width: 72px;
@@ -177,15 +184,35 @@
         font-size: 14px;
         transition: border-color 0.3s;
     }
-
-   
-    .logo{
-        width:  200px;
-        height: auto;
-        position: fixed;
-        top: 11px;
-        right: 100px;
+    .a8{
+         position: fixed;
+        width: auto; 
+        top: 257px;
+        left: 646px;    
     }
+
+    p.b4{
+        padding-inline: 7px;
+        position: fixed;
+        top: 238px;
+        left: 525px;
+        border: 1px solid #2C2C2C;
+        width: 72px;
+        height: 35px;
+        display: flex;
+        font-size: 15px;
+        border-radius: 7px;
+        justify-content: center;
+        align-items: center;
+        background-color: #2C2C2C;
+        font-family: 'form', sans-serif;
+        color: white;
+        margin: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        z-index: auto;
+    }
+   
+    
 
     .button{
         position: fixed;
